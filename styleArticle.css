@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 215, 183);
+}
+
+.digiCard{
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    padding: 20px;
+    position: relative;
+}
+img{
+    width: 430px;
+    height: 300px;
+    border-radius:5px ;
+    filter: grayscale(70%);
+    margin: auto;
+}
+
+
+.bouton{
+    background-color: rgb(252, 50, 53);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 3px;
+}
